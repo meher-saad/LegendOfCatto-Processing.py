@@ -1,0 +1,168 @@
+checkpoint, 0
+
+info,500,HOLD SPACE WHILE WALKING TO SPRINT, AS YOU SPRINT YOUR STAMINA GETS REDUCED, SPRINT FROM A DISTANCE TO MAKE A LONG JUMP
+
+coin, 300, GND-100
+coin, 450, GND-100
+coin, 600, GND-100
+coin, 750, GND-100
+coin, 900, GND-100
+coin, 1050, GND-100
+coin, 1200, GND-100
+
+obstacle,trap, 1200,400,80
+coin, 1600, GND-100
+coin, 1700, GND-100
+coin, 1800, GND-100
+coin, 1900, GND-100
+coin, 2000, GND-100
+
+
+info,1700,YOUR STAMINA REGENERATES WITH TIME
+
+obstacle,trap, 2000,600,80
+
+info,3000,COLLECT SPECIAL ITEMS FOR INCREASING HEALTH AND STAMINA
+
+coin, 2700, GND-100
+coin, 2800, GND-100
+coin, 2900, GND-100
+
+food, 3250, GND-50
+stamina, 3380, GND-70
+
+checkpoint, 3500
+
+obstacle,water,3700,1200,80
+
+
+coin, 3950, GND-200
+coin, 4100, GND-250
+coin, 4250, GND-200
+
+movingPlatform,3900, GND-150, 400,20, 0,0,400,200
+
+coin, 4350, GND-300
+coin, 4500, GND-400
+coin, 4650, GND-300
+coin, 4800, GND-200
+coin, 5000, GND-200
+
+movingPlatform,4800, GND-500, 400,20, 0,0.2,400,400
+
+checkpoint, 5300
+
+info,5700, BIRDS CANNOT BE KILLED WHILE THEY ARE DIVING, PRESS X TO SCRATCH AND KILL THE BIRD WHILE THEY ARE FLYING
+
+birdo,6500,GND-300
+movingPlatform,6200, GND-200, 400,20, 0,0,400,400
+
+food, 7150, GND-200
+movingPlatform,6700, GND-150, 400,20, 0.1,0,400,400
+
+birdo,7200,GND-300
+
+
+obstacle,water,7800,1200,80
+birdo,8000,GND-500
+movingPlatform,8000, GND-150, 600,20, 0.2,0,200,400
+food, 8300, GND-200
+
+checkpoint, 9200
+
+info,9400,YOU CANNOT KILL DOGS,YOU CAN OUTRUN THEM BY SPRINTING JUST FOR A SHORT TIME
+stamina, 9700, GND-70-150
+
+movingPlatform,9800, GND-150, 400,20, 0,0,200,400
+doggo,10100,GND-500
+movingPlatform,10100, GND-300, 600,20, 0,0,200,400
+movingPlatform,10500, GND-150, 400,20, 0,0,200,400
+
+checkpoint, 11400
+
+movingPlatform,11700, GND-150, 400,20, 0.2,0,200,400
+popupPlatform,11700, GND-450, 400,20, 2
+movingPlatform,12400, GND-150, 400,20, 0,0,200,400
+movingPlatform,12700, GND-250, 400,20, 0,0,200,400
+popupPlatform,12400, GND-380, 300,20, 1
+
+food,12400,GND-420
+coin, 11720, GND-530
+coin, 11820, GND-530
+coin, 11920, GND-530
+coin, 12020, GND-530
+coin, 12450, GND-250
+coin, 12550, GND-250
+coin, 12750, GND-350
+coin, 12850, GND-350
+coin, 12950, GND-350
+
+movingPlatform,13200, GND-400, 400,20, 0,0,200,400
+
+birdo,12400,GND-500
+birdo,12900,GND-500
+
+doggo,13200,GND-150
+movingPlatform,14200, GND-20, 100,20, 0,0,200,400
+
+checkpoint, 14500
+
+food,14200,GND-200
+
+info, 14700, BEWARE SOME PLATFORMS MAY BE SLIPPERY
+
+obstacle,water,14800,3000,80
+movingPlatform,14850, GND-350, 500,20, 0.3,0.1,450,250
+popupPlatform,15900, GND-300, 300,20, 2
+movingPlatform,16400, GND-150, 500,20, 0,0,400,400
+
+birdo,16700,GND-500
+
+movingPlatform,17200, GND-150, 400,20, 0,0,400,400
+
+
+birdo,17700,GND-500
+
+movingPlatform,17800, GND-20, 100,20, 0,0,200,400
+
+doggo,18300,GND-150
+
+food,18300,GND-200
+stamina,18500,GND-200-20
+
+movingPlatform,18200, GND-150, 400,20, 0,0,200,400
+
+movingPlatform,19500, GND-20, 100,20, 0,0,200,400
+
+checkpoint,20000
+
+stamina,20200,GND-220
+food,20350,GND-200
+food,20500,GND-200
+
+movingPlatform,20500, GND-150, 400,150, 0,0,200,400 ,boulder
+checkpoint, 20500
+
+movingPlatform,21780, GND-150, 400,150, 0,0,200,400 ,boulder
+
+
+movingPlatform,21150, GND-280, 300,20, 0,0,200,400,boss
+
+movingPlatform,20900, GND-150, 400,20, 0.15,0,500,400,boss
+
+#popupPlatform,20900, GND-150, 300,20, 3
+
+#popupPlatform,21400, GND-150, 300,20, 3.5
+
+checkpoint, 22000
+
+#checkpoint, 23000
+#checkpoint, 25000
+#checkpoint, 26000
+
+# GAME ENDS
+
+
+
+#info,900,PRESS SPACE TO SPRINT,REMEMBER IT COSTS YOU VALUABLE STAMINA,ASIF BHALO DESIGNER, SAAD BHALO CODER
+
